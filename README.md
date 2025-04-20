@@ -25,7 +25,7 @@ The **Huff Model** is a spatial interaction model that estimates the likelihood 
 - **Distance Decay**: The idea that farther locations are less likely to be chosen
 
 $$
-P_{ij} = \frac{A_j^\lambda}{D_{ij}^\beta} \Big/ \sum_k \frac{A_k^\lambda}{D_{ik}^\beta}
+  P_{ij} = \frac{A_j^\lambda}{D_{ij}^\beta} \Big/ \sum_k \frac{A_k^\lambda}{D_{ik}^\beta}
 $$
 
 ---
